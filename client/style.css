@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+background-image: url(../images/pexels-brett-sayles-3542504.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    color: white;
+    font-size: 28px;
+}
+.logo span{
+    color: crimson;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px ;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: crimson;
+    transition: 0.5s;
+}
+
+.hero button{
+    border: none;
+    background: crimson;
+    padding: 20px;
+    border-radius: 30px;
+    transition: 0.4s;
+}
+.hero button:hover{
+    background: white;
+    color: black;
+    transition: 0.3s;
+}
+.main-container{
+    height: 20vh;
+}
+.learnread{
+        position: absolute;
+            top: 37%;
+            left: 70%;
+            color: white;
+}
+
+.learnread #learn{
+    font-weight: bold;
+    color: crimson;
+}
+.learnread #learn:hover{
+filter: sepia(0.9);
+}
+
